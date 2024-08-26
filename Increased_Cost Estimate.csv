@@ -1,0 +1,22 @@
+﻿Estimate summary
+Upfront cost,Monthly cost,Total 12 months cost,Currency
+0,19014.04,228168.48,USD
+,,* Includes upfront cost
+
+
+Detailed Estimate
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
+Increased_Cost Estimate,US East (N. Virginia),,Amazon EC2 ,0,3335.272,40023.26,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 2), Advance EC2 instance (c6gd.12xlarge), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (enabled), EBS Storage amount (4000 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+Increased_Cost Estimate,US East (N. Virginia),,VPN Connection,0,0,0.00,USD,,Working days per month (22)
+Increased_Cost Estimate,US East (N. Virginia),,Network Address Translation (NAT) Gateway,0,0,0.00,USD,,
+Increased_Cost Estimate,US East (N. Virginia),,Data Transfer,0,614.4000000000001,7372.80,USD,,"DT Inbound: Internet (20 TB per month), DT Outbound: US East (Ohio) (20 TB per month), DT Intra-Region: (20 TB per month), Data transfer cost (614.4000000000001)"
+Increased_Cost Estimate,US East (N. Virginia),,Application Load Balancer,0,441.65000000000003,5299.80,USD,,Number of Application Load Balancers (2)
+Increased_Cost Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,13587.52,163050.24,USD,,"Storage amount (4096 GB), Storage for each RDS instance (General Purpose SSD (gp2)), Nodes (2), Instance type (db.m6g.12xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Multi-AZ), Pricing strategy (OnDemand)"
+Increased_Cost Estimate,US East (N. Virginia),,S3 Standard,0,1035.2,12422.40,USD,,"S3 Standard storage (40280 GB per month), PUT, COPY, POST, LIST requests to S3 Standard (), GET, SELECT, and all other requests from S3 Standard (), Data returned by S3 Select (40280 GB per month), Data scanned by S3 Select (40280 GB per month)"
+Increased_Cost Estimate,US East (N. Virginia),,Data Transfer,0,0,0.00,USD,,
+
+
+Change: Increase Amazon EC2 instance to c6gd.12xlarge; Increase Amazon RDS Storage amount to 4096 GB; Increase RDS Instance type to db.m6g.12xlarge
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
